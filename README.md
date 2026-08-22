@@ -8,7 +8,7 @@
 
 内容与样式完全分离。你只需要编辑 `examples/*.yaml` 里的文字，运行一条命令即可得到排版精良的 PDF；也可以启动内置网页端口，在浏览器左侧编辑 YAML、右侧查看真实 RenderCV PDF 预览。
 
-![preview](docs/preview.png)
+![preview](docs/preview_1.png)
 
 ## ✨ 特性
 

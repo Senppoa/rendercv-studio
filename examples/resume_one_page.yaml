@@ -8,7 +8,7 @@
 cv:
   name: 张三
   headline:
-  location: 北京 · 预计2027.06博士毕业
+  location: 海州市 · 预计2028.06博士毕业
   email: your-email@example.com
   phone: "+8613800000000"
   photo: assets/photo.jpg
@@ -23,46 +23,44 @@ cv:
   sections:
 
     教育背景:
-      - institution: 某某大学
-        area: 化学工程与技术（化学工程）
+      - institution: 海州科技大学
+        area: 计算科学与工程
         degree: 博士（硕博连读）
-        date: "2021.09 – 至今"
+        date: "2023.09 – 至今"
         highlights:
-          - "**博士课题**：基于机器学习势函数与数学规划法的有机金属催化剂设计（预计 **2027.06** 毕业）"
-          - "导师：某某某教授；副导师：某某某副教授"
-      - institution: 某某大学
-        area: 化学工程与工艺（化学工程）
+          - "**博士课题**：机器学习驱动的科学计算与材料性质预测（预计 **2028.06** 毕业）"
+          - "导师：某教授；副导师：某副教授"
+      - institution: 海州科技大学
+        area: 数据科学与工程
         degree: 学士
-        date: "2017.09 – 2021.06"
+        date: "2019.09 – 2023.06"
         highlights:
-          - "GPA **3.85/5** · 专业前 15%"
+          - "GPA **3.72/5** · 专业前 18%"
 
     核心项目经历:
-      - name: "示例项目：机器学习势函数驱动的分子模拟加速（顶刊 · 一作）"
-        date: "2022 – 至今"
+      - name: "示例项目：机器学习驱动的分子模拟加速"
+        date: "2024 – 至今"
         highlights:
-          - "用一句话概括**项目背景**与你要解决的问题；"
-          - "说明你**独立完成**的部分：数据构建 → 模型训练 → 部署全流程；"
-          - "**量化成果**：实现数量级加速 / 发表于某期刊 / 支撑后续工作。"
-      - name: "示例项目：高通量虚拟筛选工具（开源软件）"
-        date: "2023 – 2024"
+          - "构建数据生成、模型训练与部署流程，用于加速小分子体系的科学计算。"
+          - "设计基准实验与误差分析方案，验证模型稳定性和泛化能力。"
+      - name: "示例项目：高通量材料筛选原型系统"
+        date: "2025 – 2026"
         highlights:
-          - "集成多种算法实现一键式批量优化，作为课题组基础设施支撑多篇论文。"
+          - "集成多种优化算法与批处理接口，实现可重复的候选材料排序工作流。"
 
     其他论文与产出:
-      - bullet: "另合作发表 J. Catalysis、J. Org. Chem.、AIChE J. 等 SCI 论文 4 篇、会议/EI 论文 3 篇；**一作/共一合计 5 篇**。（# 共同第一作者，* 通讯作者）"
+      - bullet: "示例成果：合作发表领域期刊与会议论文多篇；**一作/共一合计 3 篇**。（# 共同第一作者，* 通讯作者）"
 
     荣誉奖项:
-      - bullet: "**2025** \"挑战杯\"全国竞赛 AI+ 专项赛 —— **国赛特等奖**"
-      - bullet: "**2023** 硕士研究生国家奖学金 —— **国家级**"
-      - bullet: "**2025** 中国国际大学生创新大赛（大工校赛）—— **金奖**"
-      - bullet: "**2020** 全国大学生化工设计竞赛 —— **国赛一等奖**"
-      - bullet: "**2024** 全国首届化工行业 AI 应用创新大赛 —— **优胜奖**"
-      - bullet: "**2021** 国家励志奖学金 ×3 · 校优秀毕业生 · 校优秀研究生 ×2 —— **多次获奖**"
+      - bullet: "**2026** 全国高校智能计算挑战赛 —— **一等奖**"
+      - bullet: "**2025** 研究生学术创新奖学金 —— **校级**"
+      - bullet: "**2024** 海州市大学生科技创新竞赛 —— **金奖**"
+      - bullet: "**2023** 全国大学生数据建模竞赛 —— **二等奖**"
+      - bullet: "**2022–2025** 校级奖学金与优秀学生称号 —— **多次获奖**"
 
     开源项目:
-      - bullet: "[transition-state-demo](https://github.com/your-github/transition-state-demo)（★10）：示例论文配套——过渡态初猜与机器学习势驱动的搜索流程；[uncertainty-demo](https://github.com/your-github/uncertainty-demo)：模型不确定性量化；hessian-demo：AI 分子动力学解析 Hessian"
-      - bullet: "[scientific-interface](https://github.com/your-github/scientific-interface)（★2）：机器学习模型与量化软件接口；workflow-tools（★2）· format-converter · surface-scan：科学计算工作流工具；web-demo（★2）：分子性质在线计算器"
+      - bullet: "[molecular-sim-demo](https://github.com/your-github/molecular-sim-demo)（★12）：分子模拟与机器学习流程示例；[model-uncertainty-demo](https://github.com/your-github/model-uncertainty-demo)：模型不确定性量化"
+      - bullet: "[scientific-workflow-demo](https://github.com/your-github/scientific-workflow-demo)（★4）：科学计算批处理接口；format-tools · data-converter：可重复研究工具"
 
     专业技能:
       - label: 编程开发
@@ -74,7 +72,7 @@ cv:
       - label: 机器学习
         details: 分子表示学习与描述符工程、QSPR/QSAR 结构–性质关系、贝叶斯优化与数学规划（MILP/MINLP）分子设计
       - label: 语言水平
-        details: 英语 CET-6（519分），流畅读写英文文献、撰写 SCI 论文并进行国际会议交流
+        details: 英语 CET-6（535分），流畅读写英文文献、撰写 SCI 论文并进行国际会议交流
 
 # ------------------------------------------------------------------
 design:

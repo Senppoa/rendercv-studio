@@ -1,0 +1,6 @@
+# 个人求职材料 —— 不纳入发布仓库
+*.pdf
+rendercv_output/
+out_2p/
+__pycache__/
+.DS_Store

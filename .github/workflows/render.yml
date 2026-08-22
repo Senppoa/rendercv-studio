@@ -1,0 +1,44 @@
+name: Render Resume PDFs
+
+on:
+  push:
+    branches: [main]
+    paths: ["examples/**/*.yaml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v4
+
+      - name: Install CJK fonts
+        run: sudo apt-get update && sudo apt-get install -y fonts-noto-cjk
+
+      - name: Install RenderCV
+        run: uv tool install "rendercv[full]>=2.8,<2.9"
+
+      - name: Render all example resumes
+        run: bash scripts/build.sh
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: resumes-pdf
+          path: |
+            output/**/*.pdf
+            output/**/*.png
+          if-no-files-found: error
+
+      - name: Commit rendered PDFs back to repo (optional)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/
+          git diff --cached --quiet || git commit -m "render: update PDFs [skip ci]"
+          git push

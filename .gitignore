@@ -1,0 +1,7 @@
+output/
+rendercv_output/
+__pycache__/
+.yaml-studio-*
+examples/.yaml-studio-*
+*.typ
+.DS_Store

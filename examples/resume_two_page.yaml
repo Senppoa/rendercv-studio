@@ -1,0 +1,173 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+# Official ClassicTheme-style two-page example for a Chinese CV.
+
+cv:
+  name: 张三
+  headline:
+  location: 上海 · 预计2027.06博士毕业
+  email: your-email@example.com
+  photo: assets/photo.jpg
+  phone: "+8613800000000"
+  website:
+  social_networks:
+    - network: GitHub
+      username: your-github
+    - network: Google Scholar
+      username: your-scholar-id
+    - network: ORCID
+      username: "0000-0000-0000-0000"
+  custom_connections:
+  sections:
+
+    教育背景:
+      - institution: 某某大学
+        area: 化学工程与技术
+        degree: 博士（硕博连读）
+        date: "2021.09 – 至今"
+        highlights:
+          - "**研究课题**：机器学习与科学计算交叉方法"
+          - "导师：某某教授；预计 **2027.06** 毕业"
+      - institution: 某某大学
+        area: 化学工程与工艺
+        degree: 学士
+        date: "2017.09 – 2021.06"
+        highlights:
+          - "GPA **3.85/5**，专业前 15%"
+
+    研究经历:
+      - name: "机器学习势函数驱动的科学计算加速"
+        date: "2022 – 至今"
+        highlights:
+          - "构建从数据生成、模型训练到部署的完整机器学习势函数工作流，服务分子模拟与性质预测。"
+          - "设计高效数值算法，结合基准实验验证模型稳定性与泛化能力。"
+          - "以第一作者在相关领域期刊发表论文，并将代码整理为可复用工具。"
+      - name: "分子表示学习与高通量虚拟筛选"
+        date: "2021 – 2025"
+        highlights:
+          - "设计分子描述符与结构–性质关系模型，完成数据清洗、训练、评估和误差分析。"
+          - "结合多目标优化对候选分子进行排序，与实验团队完成闭环验证。"
+      - name: "计算化学自动化软件工具"
+        date: "2023 – 2024"
+        highlights:
+          - "集成多个优化算法与批处理接口，降低高通量计算的使用门槛。"
+          - "编写测试、文档和示例，支持 Linux 集群环境下的可重复运行。"
+      - name: "绿色溶剂设计与性质预测"
+        date: "2019 – 2020"
+        highlights:
+          - "融合基团贡献法、COSMO-SAC 与反应生成算法，建立计算机辅助分子设计流程。"
+
+    学术会议报告:
+      - bullet: "**2024.08** 全国学术会议 · 口头报告《机器学习驱动的科学计算方法》"
+      - bullet: "**2023.06** 国际学术会议 · 海报展示计算化学自动化工具"
+      - bullet: "**2022.07** 专题会议 · 海报展示与优秀海报奖"
+      - bullet: "**2021.07** 年会 · 口头报告与优秀论文奖"
+
+    企业合作项目:
+      - company: 某某科技有限公司
+        position: 分子性质预测与工艺优化（项目成员）
+        date: "2021.01 – 2021.12"
+        highlights:
+          - "面向工艺降本需求，开展反应溶剂与结晶溶剂的高通量评估，形成性质预测、多目标排序和实验验证流程。"
+
+    学术成果:
+      - title: Reactive Machine Learning Potential for Accelerating Scientific Simulation
+        authors:
+          - "Smith, A.#"
+          - "*Doe, J.*#（共一）"
+          - "Lee, R."
+          - "Brown, T."
+          - "Miller, K.*"
+        journal: "Example Journal（顶刊 · 共一）"
+        date: "2026 年"
+        summary: "**贡献**：主导方法设计、实验验证和代码实现。"
+      - title: Molecular Representation Learning for Multi-Objective Molecular Design
+        authors:
+          - "*Doe, J.*"
+          - "Lee, R."
+          - "Miller, K.*"
+        journal: "Computational Methods Journal（SCI Q1 · 一作）"
+        date: "2025 年"
+        summary: "**贡献**：独立完成数据建模、算法实现和论文撰写。"
+      - title: Interpretable Property Prediction for Computational Molecular Design
+        authors:
+          - "*Doe, J.*"
+          - "Taylor, M."
+          - "Miller, K.*"
+        journal: "Applied Science Journal（SCI Q2 · 一作）"
+        date: "2023 年"
+      - title: Automated Workflow for High-Throughput Transition-State Search
+        authors:
+          - "*Doe, J.*"
+          - "Brown, T."
+          - "Miller, K.*"
+        journal: "Engineering Proceedings（CPCI · 一作）"
+        date: "2024 年"
+
+    其他论文与产出:
+      - bullet: "另合作发表相关 SCI / EI / 会议论文多篇；# 共同第一作者，* 通讯作者。"
+
+    荣誉奖项:
+      - bullet: "**2025** 全国大学生创新竞赛 —— **特等奖**"
+      - bullet: "**2024** 行业人工智能应用创新大赛 —— **一等奖**"
+      - bullet: "**2023** 研究生国家奖学金 —— **国家级**"
+      - bullet: "**2022** 优秀研究生学术论坛 —— **二等奖**"
+      - bullet: "**2020** 全国大学生化工设计竞赛 —— **一等奖**"
+      - bullet: "**2019–2021** 校级奖学金与优秀学生称号 —— **多次**"
+
+    开源项目:
+      - bullet: "[ml-simulation-toolkit](https://github.com/)：机器学习势函数与分子模拟工作流工具。"
+      - bullet: "[molecular-design](https://github.com/)：分子表示、性质预测和多目标优化示例。"
+      - bullet: "[workflow-converter](https://github.com/)：科学计算输入输出格式转换与批处理工具。"
+
+    专业技能:
+      - label: 编程开发
+        details: "**Python**、PyTorch、scikit-learn、ASE；Git/GitHub、Linux、集群批处理与测试。"
+      - label: 机器学习
+        details: 分子表示学习、描述符工程、QSPR/QSAR、模型评估、贝叶斯优化、多目标优化
+      - label: 科学计算
+        details: DFT、分子模拟、过渡态搜索、数值优化、高通量计算自动化
+      - label: 工程工具
+        details: Docker、LaTeX、MATLAB；熟悉大模型与 AI 编程助手辅助科研开发
+      - label: 语言水平
+        details: 英语 CET-6，能够阅读英文文献、撰写论文和进行学术交流
+
+design:
+  theme: classic
+  page:
+    size: a4
+    top_margin: 0.7cm
+    bottom_margin: 0.6cm
+    left_margin: 1.25cm
+    right_margin: 1.25cm
+  typography:
+    line_spacing: 0.52em
+    font_family:
+      body: Noto Sans CJK SC
+      name: Noto Sans CJK SC
+      headline: Noto Sans CJK SC
+      connections: Noto Sans CJK SC
+      section_titles: Noto Sans CJK SC
+    font_size:
+      body: 9pt
+      name: 22pt
+      headline: 10pt
+      connections: 8.8pt
+      section_titles: 1.3em
+  sections:
+    space_between_regular_entries: 0.55cm
+    space_between_text_based_entries: 0.12cm
+  entries:
+    date_and_location_width: 4.15cm
+    degree_width: 2.8cm
+    short_second_row: true
+    highlights:
+      bullet: •
+      space_left: 0.25cm
+      space_between_items: 0.06cm
+
+locale:
+  language: mandarin_chinese
+
+settings:
+  current_date: today
+  bold_keywords: []
